@@ -3,3 +3,134 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+   font-family: "Open Sans", sans-serif;
+   background: #F5F4F0;
+}
+
+#page {
+    width: 1120px;
+    padding: 80px;
+    margin: 88px auto 48px;
+    background: #F5F4F0;
+    gap: 65px;
+    
+}
+
+header span, #content span {
+  color: #E1624F;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+#content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 64px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 44px;
+}
+
+h1, h2, h3 {
+  color: #1B1B1B;
+}
+
+#description img {
+    height: 660px;
+    align-self: stretch;
+}
+
+#description legend {
+    color: #333;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+ p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#card1 img,
+#card2 img,
+#card3 img {
+  height: 350px;
+  align-self: stretch;
+  margin-bottom: 20px;
+}
+
+#one,
+#two {
+  margin-bottom: 30px;
+}
+
+ul {
+  margin-left: 25px;
+  margin-bottom: 40px;
+}
+
+#purple {
+  color: #591B98;
+  font-size: 16px;
+  font-weight: 700;
+} 
+
+#pink {
+  color:#E5245E;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#orange {
+  color: #E95E10;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+
+.divider {
+  width: 1120px;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+#last {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  font-family: Alice;
+  color: #333;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
+}
